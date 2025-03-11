@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: black;
+    font-family: "Noto Serif";
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+h3{
+    text-align: center;
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+ul{
+    text-emphasis: center;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    color: white;
+}
+
+.navbar {
+    text-align: center;
+}
+
+p{
+    text-align: left;
+    color: white;
+}
+
+.body-text{
+    padding-left: 30%;
+    padding-right: 30%;
+    font-size: 22px;
+
+}
+.body-text-sources{
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align: center;
+}
+
+.imgContainer{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.landing-img{
+    text-align: center;
+}
+
+.image{
+    width: 30%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.slide-container{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.slide{
+    width: 45%;
+}
+
+.image-slider {
+    margin-left: 3rem;
+    position: relative;
+    display: inline-block;
+    line-height: 0;
+}
+
+.image-slider img {
+    user-select: none;
+    max-width: 400px;
+}
+
+.image-slider > div {
+    position: absolute;
+    width: 25px;
+    max-width: 100%;
+    overflow: hidden;
+    resize: horizontal;
+}
+
+.image-slider > div:before {
+    content: '';
+    display: block;
+    width: 13px;
+    height: 13px;
+    overflow: hidden;
+    position: absolute;
+    resize: horizontal;
+    right: 3px;
+    bottom: 3px;
+    background-clip: content-box;
+    background: linear-gradient(-45deg, black 50%, transparent 0);
+    -webkit-filter: drop-shadow(0 0 2px black);
+    filter: drop-shadow(0 0 2px black);
+}
